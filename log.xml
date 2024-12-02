@@ -1,0 +1,11 @@
+import xml.etree.ElementTree as ET
+
+def log_action(self, action):
+    try:
+        root = ET.Element("log")
+        action_element = ET.SubElement(root, "action")
+        action_element.text = action
+        tree = ET.ElementTree(root)
+        tree.write(self.log_path)
+    except Exception as e:
+        print(f"Error logging action: {e}")

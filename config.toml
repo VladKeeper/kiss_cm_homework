@@ -1,0 +1,4 @@
+username = "user"
+hostname = "localhost"
+vfs_path = "C:\Users\Пользователь\Desktop\University\cm_homework_1\vfs.tar"
+log_path = "C:\Users\Пользователь\Desktop\University\cm_homework_1\log.xml"
