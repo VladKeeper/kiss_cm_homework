@@ -1,0 +1,4 @@
+# Конфигурация для обработки заказов
+order_limit = 50
+total_orders = 70
+order_details = {order_id = 12345, order_value = 250.75}

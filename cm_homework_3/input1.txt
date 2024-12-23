@@ -1,0 +1,9 @@
+\ Конфигурация для подключённых устройств
+var device_count 5;
+var active_devices ^[+ device_count -2];
+var device_ids << 101, 102, 103, 104, 105 >>; \ идентификаторы
+var device_settings {
+    brightness = 75
+    volume = 50
+    modes = << 100, 17.6 >>
+};

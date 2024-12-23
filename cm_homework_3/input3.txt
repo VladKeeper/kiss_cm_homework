@@ -1,0 +1,7 @@
+\ Конфигурация для обработки заказов
+var order_limit 50; 
+var total_orders ^[+ order_limit 20]; 
+var order_details {
+    order_id = 12345
+    order_value = 250.75
+};

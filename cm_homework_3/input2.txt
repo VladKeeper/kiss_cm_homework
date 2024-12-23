@@ -1,0 +1,9 @@
+\ Конфигурация для управления пользователями
+var user_limit 100; 
+var active_users ^[- user_limit 20]; 
+var user_roles << 3, 2, 1 >>; 
+var user_data {
+    admin_count = 5
+    editor_count = 15
+    viewer_count = 80
+};
